@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary:#02125ee0;
+    --secondary:#dfe3f8;
+
+}
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #dfe3f8;
+    background-color:#02125ee0;
+    
+}
+
+header {
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:center
+}
+
+header h1 {
+    font-size: 4vw;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: dashed;
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: #dfe3f8;
+    font-size: 1.5vw;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 45px;
+    color: var(--primary);
+
+}
+
+.banner {
+    background-image: url("./images/Mountain.jpeg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-blend-mode: soft-light;
+    min-height: 30vh;
+    color: var(--primary);
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+   }
+
+   .banner h2 {
+    margin: 0;
+    padding: 10px 25px;
+    
+   }

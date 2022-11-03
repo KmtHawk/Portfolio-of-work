@@ -46,10 +46,14 @@ nav a:hover {
     color: #000;
 }
 
+
+
 main {
     margin-top: 20px;
     margin-bottom: 45px;
-    color: var(--secondary);
+    color: var(--primary);
+    background-color: darkgray;
+    border: solid var(--secondary);
 }
 
 .about-section {
@@ -115,8 +119,8 @@ main {
 }
 
 .work-item {
-    border: 5px solid var(--secondary);
-    background-color: var(--primary);
+    border: 5px solid var(--primary);
+    background-color: var(--secondary);
     color: var(--tertiary);
     min-height: 150px;
     max-height: 150px;

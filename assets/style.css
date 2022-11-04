@@ -122,12 +122,12 @@ p {
     justify-content: center;
 }
 
-.work-item {
+.work-item{
     border: 5px solid var(--primary);
     color: var(--tertiary);
-    min-height: 150px;
+    min-height: 250px;
     max-height: 150px;
-    flex-basis: calc(50% - 1em);
+    flex-basis: 50%;
     display: flex;
     justify-self: center;
     align-items: flex-end;
@@ -138,6 +138,10 @@ p {
     background-size: 150%;
     transition: all 0.5s;
     font-size: 0.9rem;
+}
+
+.prework:hover{
+    background-color: rgb(206, 206, 222);
 }
 
 .work-item2 {
@@ -156,6 +160,10 @@ p {
     background-size: 150%;
     transition: all 0.5s;
     font-size: 0.9rem;
+    }
+
+    .refactor:hover{
+        background-color: rgb(206, 206, 222);
     }
 
 
